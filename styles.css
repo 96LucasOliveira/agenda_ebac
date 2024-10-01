@@ -1,0 +1,111 @@
+table {
+    width: 50%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+/* Centraliza o conteúdo da página */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Alinha o conteúdo no topo */
+    align-items: center;         /* Centraliza horizontalmente */
+    height: 100vh;               /* Ocupa 100% da altura da tela */
+    font-family: Arial, sans-serif;
+}
+
+/* Contém o conteúdo centralizado */
+.container {
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
+}
+
+/* Alinha o logotipo ao lado do título na mesma linha */
+.logo-titulo {
+    display: flex;               /* Usa Flexbox para colocar o logotipo e título lado a lado */
+    align-items: center;         /* Alinha verticalmente no centro */
+    justify-content: center;     /* Centraliza o conteúdo horizontalmente */
+}
+
+/* Estilo para o logotipo */
+.logo {
+    width: 50px;                 /* Ajusta o tamanho do logotipo */
+    height: auto;                /* Mantém a proporção da imagem */
+    margin-right: 10px;          /* Adiciona um espaçamento entre o logotipo e o título */
+}
+
+/* Estilos para o formulário */
+form {
+    margin-bottom: 20px;
+}
+
+/* Estilos da tabela */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos dos inputs e botão */
+input {
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    text-align: left  ;
+}
